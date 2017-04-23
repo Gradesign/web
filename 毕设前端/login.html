@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>登录-传媒之家-最专业的传媒招聘平台</title>
+
+<link rel="stylesheet" type="text/css" href="style/css/style.css"/>
+
+</head>
+<body id="login_bg">
+<div class="login_wrapper">
+	  <div class="login_header">
+        	<a href="h/"><img src="style/images/logo.png" width="285" height="180" alt="传媒之家招聘" /></a>
+            <img src="style/images/cloud_m.png" width="136" height="90"  alt="cloud" />
+            <div id="cloud_m"><img src="style/images/cloud_m.png" width="136" height="90"  alt="cloud" /></div>                       
+      </div>
+        
+    	<input type="hidden" id="resubmitToken" value="" />		
+  <div class="login_box">
+        	<form id="loginForm" action="index.html">
+				<input type="text" id="email" name="email" value="" tabindex="1" placeholder="请输入登录邮箱地址" /><br>
+                <span class="error" style="display:none;" id="beError"></span>
+			  	<input type="password" id="password" name="password" tabindex="2" placeholder="请输入密码" />
+				<span class="error" style="display:none;" id="beError"></span>                
+			    <label class="fl" for="remember"><input type="checkbox" id="remember" value="" checked="checked" name="autoLogin" /> 记住我</label>
+			    <a href="reset.html" class="fr" target="_blank">忘记密码？</a>
+			    
+				<!--<input type="submit" id="submitLogin" value="登 &nbsp; &nbsp; 录" />-->
+				<a style="color:#fff;" href="index.html" class="submitLogin" title="登 &nbsp; &nbsp; 录"/>登 &nbsp; &nbsp; 录</a>
+
+			    
+			    <input type="hidden" id="callback" name="callback" value=""/>
+                <input type="hidden" id="authType" name="authType" value=""/>
+                <input type="hidden" id="signature" name="signature" value=""/>
+                <input type="hidden" id="timestamp" name="timestamp" value=""/>
+			</form>
+			<div class="login_right">
+				<div>还没有传媒之家帐号？</div>
+				<a  href="register.html"  class="registor_now">立即注册</a>
+                
+                </div>
+        <div class="login_box_btm"></div>
+    </div>
+			
+			</div>
+    </div>
+	</div>
+</body>
+</html>
